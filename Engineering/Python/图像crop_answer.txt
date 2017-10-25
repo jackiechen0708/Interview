@@ -1,0 +1,5 @@
+考察点：鲁棒性设计
+出处：Face++
+解答：看似简单，其实应该关注的是RoI的区域是否在表示Image的numpy数组范围之内，若不在，怎么办：
+1.Image padding
+2.Result区间赋值
